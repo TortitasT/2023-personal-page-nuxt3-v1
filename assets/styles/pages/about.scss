@@ -1,0 +1,19 @@
+.about{
+  &__reach{
+    width: 100%;
+
+    box-sizing: border-box;
+
+    &__row{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  
+      gap: 0.5em;
+
+      *{
+        flex: 1;
+      }
+    }
+  }
+}
