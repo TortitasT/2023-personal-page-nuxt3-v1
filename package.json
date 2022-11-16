@@ -11,5 +11,6 @@
     "nuxt": "3.0.0",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0"
-  }
+  },
+  "dependencies": {}
 }

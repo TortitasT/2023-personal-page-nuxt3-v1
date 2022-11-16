@@ -17,6 +17,7 @@
 }
 
 @import "./a";
+@import "./p";
 @import "./form";
 
 body{
@@ -42,7 +43,7 @@ body{
 
     box-sizing: border-box;
 
-    min-height: 75vh;
+    min-height: 50vh;
 
     display: flex;
     flex-direction: column;
