@@ -16,8 +16,17 @@
   ul{
     padding: 1em;
 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+
     h2, p{
       margin-top: 0;
+    }
+
+    a{
+      font-size: 18px;
     }
   }
 }
