@@ -16,11 +16,16 @@
             <span>About</span>
           </nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/blog">
+            <span>Blog</span>
+          </nuxt-link>
+        </li>
       </ul>
     </nav>
   </header>
 </template>
 
 <style lang="scss">
-  @import '~/assets/styles/components/header.scss';
+@import '~/assets/styles/components/header.scss';
 </style>
