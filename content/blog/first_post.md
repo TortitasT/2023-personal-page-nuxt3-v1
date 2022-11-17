@@ -10,6 +10,6 @@ Hii, I am Tortitas, you can read about me on the [about page](/about).
 
 ## This website
 
-This website is built with [Nuxt 3](https://next.com/), I use Nuxt 2 at work a lot and I am really excited to see what Nuxt 3 brings to the table.
+This website is built with [Nuxt 3](https://nuxt.com/), I use Nuxt 2 at work a lot and I am really excited to see what Nuxt 3 brings to the table.
 
 You can find the source code for this website on [GitHub](https://github.com/TortitasT/2023-personal-page).
