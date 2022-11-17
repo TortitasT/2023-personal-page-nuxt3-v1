@@ -1,12 +1,18 @@
-.blog{
-  &__list{
+.blog {
+  &__list {
     display: flex;
     flex-direction: column;
     gap: 1em;
 
-    &__post{
+    &__post {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
+
+      padding: 0 1em;
+
+      h3 {
+        margin: 0;
+      }
     }
   }
 }

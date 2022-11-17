@@ -6,11 +6,23 @@
       <h2>Recent posts</h2>
       <ul class="blog__list">
         <li v-for="(post, index) in posts" :key="index" class="blog__list__post">
-          <nuxt-link :to="post._path">
-            <span>{{ post.title }}</span>
-          </nuxt-link>
 
-          <span>{{ post.date || 'no date' }}</span>
+
+          <div>
+            <nuxt-link :to="post._path">
+              <h3>{{ post.title }}</h3>
+            </nuxt-link>
+            <small>{{ post.date || 'no date' }}</small>
+
+            <p>
+              {{ post.description }}
+            </p>
+          </div>
+          <div>
+            <nuxt-link :to="post._path">
+              Ver mas
+            </nuxt-link>
+          </div>
         </li>
       </ul>
     </section>
