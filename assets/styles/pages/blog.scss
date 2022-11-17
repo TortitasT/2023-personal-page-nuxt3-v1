@@ -1,0 +1,12 @@
+.blog{
+  &__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    &__post{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

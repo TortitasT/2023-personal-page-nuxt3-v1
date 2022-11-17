@@ -1,4 +1,7 @@
 a{
+  color: var(--color-primary-text);
+  text-decoration: underline;
+
   >span{
     display: inline-block;
     color: var(--color-primary-text);
